@@ -1,6 +1,0 @@
-[10-Apr-2018 17:04:04 UTC] PHP Fatal error:  Call to undefined function the_ID() in /home/glfqdcvo/public_html/wp-content/themes/twentyfifteen/content-link.php on line 13
-[11-Apr-2018 08:50:21 UTC] PHP Fatal error:  Call to undefined function the_ID() in /home/glfqdcvo/public_html/wp-content/themes/twentyfifteen/content.php on line 13
-[11-Apr-2018 10:01:43 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/glfqdcvo/public_html/wp-content/themes/twentyfifteen/index.php on line 17
-[11-Apr-2018 18:48:07 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/glfqdcvo/public_html/wp-content/themes/twentyfifteen/404.php on line 10
-[12-Apr-2018 03:47:47 UTC] PHP Fatal error:  Call to undefined function _e() in /home/glfqdcvo/public_html/wp-content/themes/twentyfifteen/author-bio.php on line 12
-[12-Apr-2018 05:11:19 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/glfqdcvo/public_html/wp-content/themes/twentyfifteen/archive.php on line 19
