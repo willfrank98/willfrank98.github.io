@@ -1,0 +1,70 @@
+--- 
+files: 
+  certificate: 
+    willfrank_xyz_9d12b_0c3a7_1538945800_35fae894dc6707fc77ee104276ca2502: 
+      created: '1531173400'
+      domains: 
+        - cpanel.willfrank.xyz
+        - mail.willfrank.xyz
+        - webdisk.willfrank.xyz
+        - webmail.willfrank.xyz
+        - willfrank.xyz
+        - www.willfrank.xyz
+      friendly_name: cpanel.willfrank.xyz, mail.willfrank.xyz, webdisk.willfrank.xyz, webmail.willfrank.xyz, willfrank.xyz, and www.willfrank.xyz 1531173400.0
+      id: willfrank_xyz_9d12b_0c3a7_1538945800_35fae894dc6707fc77ee104276ca2502
+      is_self_signed: 0
+      issuer.commonName: Let's Encrypt Authority X3
+      issuer.organizationName: Let's Encrypt
+      modulus: 9d12bf5cac56d5a53eff1b695d90b8d8a761bc73123bce2e036007516432d227ccbd488a65487177e83a978a977b04473055f8c8c53f16e295115e822ab2505b9fe489860381f5bcaedf97fae95b3d5a28ce162d261a891a0c15e9695e7eb276c63e93b4c3a0bee8b306aee52031a2aea0e172bb221b9da8699a75203668a2cd7cded202ffaa0aae602f274d85b192a793a279b489b31692ce2cec32ce9ad1c5af94c7e2be2ddb159f4f4f680ccdb0d6a7beac53dafaa3c9c8974b9c4f8457e0124cd94ff388cb4949730d0c239f7365e2b661eb8de2cc3768c11f4af424c6fb43078790f9fd4d36f347c7915676a04d20e5f7be3b31d484f0781b391e20c3a7
+      modulus_length: 2048
+      not_after: '1538945800'
+      not_before: '1531169800'
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: willfrank.xyz
+      validation_type: dv
+    willfrank_xyz_d9034_805db_1547526713_d09b066dfaf23bc66928cf76da85695e: 
+      created: '1515990713'
+      domains: 
+        - willfrank.xyz
+        - mail.willfrank.xyz
+        - www.willfrank.xyz
+      friendly_name: Cert for “willfrank.xyz”
+      id: willfrank_xyz_d9034_805db_1547526713_d09b066dfaf23bc66928cf76da85695e
+      is_self_signed: 1
+      issuer.commonName: willfrank.xyz
+      issuer.organizationName: ~
+      modulus: d903499a3a1a43d544e34c4fa4f57dc8cf1e3bc1388d3bc67594b214f3899e431a57501f3a9cb59052bdbf723cc9efb27f3ef88b1df28f17b8ac27181e24e978ca546327dc25512dee91911809c686aaba00b5b8aa21166ea260585446941b80104136161c83880e64249598077af444aa0fd100f9e7ad313caa1d9d8b34fc8c63dcc8c5f20488fb9bc2abd6c2cb0886de23f60f24d6b89cf501c23b60609aac785d538ae6ed27b1b9a1f998ed199843ea1026c19750db73caa58218246f74a975e9676a5968b59bded5301a8b157235046b5fdd737f79922d9dfaca5cbf28909bbdf6effbaa904fcfcadc80d3553cf661983d1294c6917295c1a00fc6c805db
+      modulus_length: 2048
+      not_after: '1547526713'
+      not_before: '1515990713'
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: willfrank.xyz
+      validation_type: ~
+  key: 
+    d9034_805db_cdc034f296cb135189eeb064c3662749: 
+      created: '1515990713'
+      friendly_name: Key for “willfrank.xyz”
+      id: d9034_805db_cdc034f296cb135189eeb064c3662749
+      modulus: d903499a3a1a43d544e34c4fa4f57dc8cf1e3bc1388d3bc67594b214f3899e431a57501f3a9cb59052bdbf723cc9efb27f3ef88b1df28f17b8ac27181e24e978ca546327dc25512dee91911809c686aaba00b5b8aa21166ea260585446941b80104136161c83880e64249598077af444aa0fd100f9e7ad313caa1d9d8b34fc8c63dcc8c5f20488fb9bc2abd6c2cb0886de23f60f24d6b89cf501c23b60609aac785d538ae6ed27b1b9a1f998ed199843ea1026c19750db73caa58218246f74a975e9676a5968b59bded5301a8b157235046b5fdd737f79922d9dfaca5cbf28909bbdf6effbaa904fcfcadc80d3553cf661983d1294c6917295c1a00fc6c805db
+      modulus_length: 2048
+indexes: 
+  certificate: 
+    modulus: 
+      9d12bf5cac56d5a53eff1b695d90b8d8a761bc73123bce2e036007516432d227ccbd488a65487177e83a978a977b04473055f8c8c53f16e295115e822ab2505b9fe489860381f5bcaedf97fae95b3d5a28ce162d261a891a0c15e9695e7eb276c63e93b4c3a0bee8b306aee52031a2aea0e172bb221b9da8699a75203668a2cd7cded202ffaa0aae602f274d85b192a793a279b489b31692ce2cec32ce9ad1c5af94c7e2be2ddb159f4f4f680ccdb0d6a7beac53dafaa3c9c8974b9c4f8457e0124cd94ff388cb4949730d0c239f7365e2b661eb8de2cc3768c11f4af424c6fb43078790f9fd4d36f347c7915676a04d20e5f7be3b31d484f0781b391e20c3a7: 
+        willfrank_xyz_9d12b_0c3a7_1538945800_35fae894dc6707fc77ee104276ca2502: ~
+      d903499a3a1a43d544e34c4fa4f57dc8cf1e3bc1388d3bc67594b214f3899e431a57501f3a9cb59052bdbf723cc9efb27f3ef88b1df28f17b8ac27181e24e978ca546327dc25512dee91911809c686aaba00b5b8aa21166ea260585446941b80104136161c83880e64249598077af444aa0fd100f9e7ad313caa1d9d8b34fc8c63dcc8c5f20488fb9bc2abd6c2cb0886de23f60f24d6b89cf501c23b60609aac785d538ae6ed27b1b9a1f998ed199843ea1026c19750db73caa58218246f74a975e9676a5968b59bded5301a8b157235046b5fdd737f79922d9dfaca5cbf28909bbdf6effbaa904fcfcadc80d3553cf661983d1294c6917295c1a00fc6c805db: 
+        willfrank_xyz_d9034_805db_1547526713_d09b066dfaf23bc66928cf76da85695e: ~
+    subject.commonName: 
+      willfrank.xyz: 
+        willfrank_xyz_9d12b_0c3a7_1538945800_35fae894dc6707fc77ee104276ca2502: ~
+        willfrank_xyz_d9034_805db_1547526713_d09b066dfaf23bc66928cf76da85695e: ~
+uniques: 
+  certificate: 
+    friendly_name: 
+      Cert for “willfrank.xyz”: willfrank_xyz_d9034_805db_1547526713_d09b066dfaf23bc66928cf76da85695e
+      cpanel.willfrank.xyz, mail.willfrank.xyz, webdisk.willfrank.xyz, webmail.willfrank.xyz, willfrank.xyz, and www.willfrank.xyz 1531173400.0: willfrank_xyz_9d12b_0c3a7_1538945800_35fae894dc6707fc77ee104276ca2502
+  key: 
+    friendly_name: 
+      Key for “willfrank.xyz”: d9034_805db_cdc034f296cb135189eeb064c3662749
+    modulus: 
+      d903499a3a1a43d544e34c4fa4f57dc8cf1e3bc1388d3bc67594b214f3899e431a57501f3a9cb59052bdbf723cc9efb27f3ef88b1df28f17b8ac27181e24e978ca546327dc25512dee91911809c686aaba00b5b8aa21166ea260585446941b80104136161c83880e64249598077af444aa0fd100f9e7ad313caa1d9d8b34fc8c63dcc8c5f20488fb9bc2abd6c2cb0886de23f60f24d6b89cf501c23b60609aac785d538ae6ed27b1b9a1f998ed199843ea1026c19750db73caa58218246f74a975e9676a5968b59bded5301a8b157235046b5fdd737f79922d9dfaca5cbf28909bbdf6effbaa904fcfcadc80d3553cf661983d1294c6917295c1a00fc6c805db: d9034_805db_cdc034f296cb135189eeb064c3662749

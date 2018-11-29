@@ -1,0 +1,302 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201802 will be lost/reset.
+# Last config file used to build this data file was /home/glfqdcvo/tmp/awstats/ssl/awstats.willfrank.xyz.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2014                
+POS_TIME 2679                
+POS_VISITOR 6814                
+POS_DAY 7163                
+POS_DOMAIN 3269                
+POS_LOGIN 3520                
+POS_ROBOT 3675                
+POS_WORMS 3847                
+POS_EMAILSENDER 3978                
+POS_EMAILRECEIVER 4121                
+POS_SESSION 7468                
+POS_SIDER 7641                
+POS_FILETYPES 4256                
+POS_DOWNLOADS 4479                
+POS_OS 4527                
+POS_BROWSER 4643                
+POS_SCREENSIZE 4843                
+POS_UNKNOWNREFERER 4917                
+POS_UNKNOWNREFERERBROWSER 5250                
+POS_ORIGIN 5493                
+POS_SEREFERRALS 5629                
+POS_PAGEREFS 5773                
+POS_SEARCHWORDS 5967                
+POS_KEYWORDS 6119                
+POS_MISC 2343                
+POS_ERRORS 6178                
+POS_CLUSTER 3376                
+POS_SIDER_404 6308                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180301032027 17 4075 10530966963554
+FirstTime 0
+LastTime 20180228181408
+LastUpdate 20180301073736 17 0 16 0 0
+TotalVisits 25                  
+TotalUnique 7                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 7                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 12 209852 0 0 0
+1 0 0 0 5 5 80020
+2 1 1 21362 3 3 11667
+3 1 1 0 2 2 68217
+4 1 1 21453 2 2 0
+5 3 3 21453 3 3 113272
+6 0 0 0 0 0 0
+7 1 1 0 1 1 56636
+8 1 1 0 4 5 4592
+9 0 0 0 8 8 82232
+10 0 0 0 3 3 113190
+11 0 0 0 0 0 0
+12 0 0 0 2 2 52
+13 1 1 0 4 5 25682
+14 51 131 4524428 7 9 4641
+15 32 32 36946 1 1 0
+16 34 44 150362 1 2 0
+17 15 28 315130 1 2 0
+18 18 55 1174367 3 4 2296
+19 37 54 1412586 4 5 2296
+20 0 0 0 0 0 0
+21 0 0 0 1 2 2296
+22 0 0 0 1 1 0
+23 0 0 0 1 1 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 3
+us 183 351 7887918
+zz 12 12 21
+de 2 2 0
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+no_user_agent 8 452842 20180227073817 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+svg 2 1522 0 0
+css 47 425368 0 0
+gif 7 43102 0 0
+html 23 432657 0 0
+png 7 1598385 0 0
+js 97 714481 0 0
+woff2 1 77160 0 0
+jpg 8 1148442 0 0
+php 173 3446822 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 4
+win7 13 3
+Unknown 13 13
+win10 335 177
+macosx12 4 4
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 7
+chrome64.0.3282.119 11 1
+chrome40.0.2214.85 2 2
+chrome61.0.3163.100 4 4
+Unknown 12 12
+mozilla 1 1
+chrome63.0.3239.132 324 176
+chrome62.0.3202.75 11 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20180206020112
+WordPress/4.9.2;_https://willfrank.xyz 20180203035339
+WordPress/4.9.4;_https://willfrank.xyz 20180228181408
+WordPress/4.9.3;_http://willfrank.xyz 20180212190143
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+WordPress/4.9.3;_http://willfrank.xyz 20180212190143
+WordPress/4.9.4;_https://willfrank.xyz 20180228181408
+WordPress/4.9.2;_https://willfrank.xyz 20180203035339
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 14 14
+From1 0 0
+From2 0 0
+From3 1 1
+From4 182 350
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://www.indeed.com/r/1b8d743d4ab52466 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+301 11 1147
+401 16 93534
+404 18 19566
+500 2 0
+302 7 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 5
+/robots.txt 5 -
+/apple-app-site-association 4 -
+/.well-known/apple-app-site-association 4 -
+/wp-admin/admin-ajax.php 1 https://willfrank.xyz/wp-admin/customize.php
+/.well-known/assetlinks.json 4 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 7
+73.63.2.38 176 324 7442919 20180223172042
+192.245.157.40 12 12 21 20180228181408
+54.183.130.127 4 4 85776 20180227165004
+138.246.253.19 2 2 0 20180221184428
+159.65.40.187 1 1 21362 20180206020112
+99.10.226.133 1 11 127499 20180223163337
+4.15.178.198 1 11 210362 20180228181407
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 12
+20180203 1 1 0 1
+20180206 1 1 21362 1
+20180212 174 298 6939819 4
+20180213 1 12 209852 1
+20180214 1 1 21453 1
+20180215 1 1 0 1
+20180218 2 2 21417 2
+20180220 1 1 0 1
+20180221 2 2 0 2
+20180223 7 30 442221 5
+20180227 3 3 21453 3
+20180228 3 13 210362 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+1h+ 1
+30s-2mn 1
+0s-30s 22
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 20
+/wp-admin/admin-ajax.php 104 18819 0 2
+/wp-admin/load-scripts.php 22 1569900 0 0
+/ 21 399448 13 11
+/wp-cron.php 11 0 11 11
+/wp-admin/load-styles.php 11 942252 0 0
+/wp-admin/post.php 8 281372 0 0
+/wp-admin/update-core.php 3 25577 0 0
+/wp-admin/themes.php 2 27262 0 0
+/wp-admin/edit.php 2 24945 0 0
+/wp-admin/ 2 33209 0 0
+/wp-includes/js/tinymce/wp-tinymce.php 2 428198 0 0
+/wp-admin/options-reading.php 1 8199 0 0
+/wp-admin/upgrade.php 1 21 1 1
+/wp-admin/about.php 1 10505 0 0
+/wp-login.php 1 1099 0 0
+/wp-content/themes/portfolioo/assets/fonts/fontawesome/fontawesome-webfont.woff2 1 77160 0 0
+/wp-admin/customize.php 1 70517 0 0
+/wp-admin/index.php 1 16853 0 0
+/wp-admin/upload.php 1 20799 0 0
+/wp-admin/async-upload.php 1 504 0 0
+END_SIDER

@@ -1,0 +1,6 @@
+[10-Apr-2018 15:46:45 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/glfqdcvo/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[11-Apr-2018 02:44:57 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/glfqdcvo/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[11-Apr-2018 07:40:47 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/glfqdcvo/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[17-Apr-2018 17:12:30 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/glfqdcvo/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[05-Jun-2018 20:48:09 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/glfqdcvo/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[12-Jun-2018 01:17:30 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/glfqdcvo/public_html/wp-content/themes/twentyseventeen/404.php on line 13

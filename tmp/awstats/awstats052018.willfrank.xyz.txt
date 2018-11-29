@@ -1,0 +1,583 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201805 will be lost/reset.
+# Last config file used to build this data file was /home/glfqdcvo/tmp/awstats/awstats.willfrank.xyz.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2010                
+POS_TIME 2683                
+POS_VISITOR 12514               
+POS_DAY 14121               
+POS_DOMAIN 3398                
+POS_LOGIN 3767                
+POS_ROBOT 3922                
+POS_WORMS 4165                
+POS_EMAILSENDER 4296                
+POS_EMAILRECEIVER 4439                
+POS_SESSION 14797               
+POS_SIDER 14972               
+POS_FILETYPES 4574                
+POS_DOWNLOADS 4766                
+POS_OS 4814                
+POS_BROWSER 5104                
+POS_SCREENSIZE 7401                
+POS_UNKNOWNREFERER 7475                
+POS_UNKNOWNREFERERBROWSER 7953                
+POS_ORIGIN 8190                
+POS_SEREFERRALS 8326                
+POS_PAGEREFS 8483                
+POS_SEARCHWORDS 8631                
+POS_KEYWORDS 8783                
+POS_MISC 2347                
+POS_ERRORS 8842                
+POS_CLUSTER 3623                
+POS_SIDER_404 8971                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180601043708 4 597 8450387848346
+FirstTime 20180501041551
+LastTime 20180531141723
+LastUpdate 20180601090213 4 0 3 0 0
+TotalVisits 85                  
+TotalUnique 33                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 41                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+AddToFavourites 0 0 0
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 8 48 1212392 7 8 5740
+1 9 46 987548 12 16 70513
+2 3 3 21414 5 5 3444
+3 2 28 747056 13 13 13776
+4 50 60 202754 7 7 4592
+5 48 48 89598 5 6 4592
+6 40 40 48680 10 10 66931
+7 38 38 46246 9 9 10332
+8 48 48 113107 24 24 339853
+9 45 45 73627 5 5 3504
+10 66 74 135546 4 4 3444
+11 73 73 295605 9 12 11480
+12 65 65 99226 8 8 8036
+13 60 60 131570 8 9 6888
+14 10 10 86911 5 5 4592
+15 9 9 28825 6 6 61200
+16 15 15 37778 6 6 61200
+17 10 10 14864 4 4 4592
+18 11 11 53195 5 5 5740
+19 10 10 13344 6 8 63358
+20 12 12 34779 7 7 62348
+21 9 9 68432 3 4 3444
+22 9 9 11824 6 6 62348
+23 14 14 16885 9 19 160199
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 11
+ua 458 458 574128
+fr 118 118 194569
+zz 40 40 261
+us 31 142 3335747
+ru 6 16 209922
+nl 4 4 22513
+ca 3 3 169824
+cn 1 1 21414
+ip 1 1 21414
+jp 1 1 21414
+kz 1 1 0
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+bingbot/ 10 97980 20180517013220 0
+no_user_agent 8 452864 20180529154318 0
+Googlebot/ 3 57618 20180515191710 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+js 80 564520 0 0
+php 614 728606 0 0
+html 44 1124376 0 0
+Unknown 6 522 0 0
+css 9 181026 0 0
+jpg 14 1777216 0 0
+png 18 194940 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 17
+win10 468 467
+Unknown 48 48
+win2003 14 14
+win2000 14 14
+linuxandroid 2 2
+macosx 17 17
+macosx12 14 14
+win7 29 11
+macosx5 1 1
+macosx10 1 1
+winlong 12 12
+linux 113 11
+win8 8 8
+winxp 15 15
+win8.1 15 15
+macosx9 1 1
+macosx4 13 13
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 105
+opera40.6.1148.7410 1 1
+firefox40.1 8 0
+chrome45.0.2454.94 1 1
+firefox59.0 1 1
+opera44.5.1704.6076 1 1
+chrome61.0.3163.100 13 13
+chrome57.5.9394.4022 1 1
+firefox55.0 1 1
+firefox45.68.11 1 1
+firefox45.0 2 2
+chrome54.8.3423.8796 1 1
+opera44.5.0397.5669 1 1
+opera44.5.0695.5967 1 1
+safari5.3.8 5 5
+chrome24.0.1312.60 1 1
+chrome57.4.9669.4397 1 1
+chrome34.0.1847.131 1 1
+chrome31.0.1650.57 3 3
+opera44.5.1541.6813 1 1
+safari4.7.2 3 3
+safari4.6.2 1 1
+chrome57.5.0639.5367 1 1
+netscape 1 1
+chrome53.0.2785.143 452 452
+chrome68.0.3430.0 29 2
+chrome57.4.9037.4309 1 1
+edge38 1 1
+opera41.9.4408.9136 1 1
+chrome54.8.4931.9203 1 1
+safari4.6.1 3 3
+opera40.6.1353.6625 1 1
+chrome53.6.0115.5843 1 1
+firefox34.0 3 3
+opera44.5.1700.6072 1 1
+opera44.5.0856.6129 1 1
+chrome53.6.1163.5890 1 1
+safari5.4.9 1 1
+mozilla 9 9
+chrome57.4.9012.4740 1 1
+chrome57.5.0546.4274 1 1
+chrome62.0.3202.94 1 1
+opera42.9.4219.9946 1 1
+edge36 9 9
+opera42.0.5727.0454 1 1
+opera44.5.1521.6893 1 1
+opera41.9.3663.8391 1 1
+chrome57.4.9947.4219 1 1
+opera42.0.5051.9789 1 1
+edge37 3 3
+chrome57.4.9369.5631 1 1
+firefox52.40.97 1 1
+chrome53.7.3137.8409 1 1
+chrome46.0.2490.80 1 1
+chrome52.0.2743.98 1 1
+chrome57.4.9804.4532 1 1
+safari5.2.7 7 7
+chrome66.0.3359.139 1 0
+firefox45.52.09 1 1
+opera42.0.4069.9797 1 1
+opera42.9.4635.9363 1 1
+firefox45.64.01 1 1
+chrome58.0.3029.110 1 1
+chrome68.0.3429.0 81 6
+chrome63.0.3239.132 11 1
+firefox28.0 1 1
+chrome53.7.3542.8814 1 1
+opera42.0.5700.0438 1 1
+firefox45.62.09 1 1
+safari5.5.1 1 1
+safari5.4.8 2 2
+chrome54.8.3191.9463 1 1
+chrome36.0.1985.67 1 1
+firefox52.60.13 1 1
+safari5.6.1 1 1
+chrome53.7.2946.8218 1 1
+opera44.5.1925.6297 1 1
+opera42.0.4061.9799 1 1
+opera42.9.4089.9717 2 2
+edge34 13 13
+Unknown 38 38
+chrome57.4.9687.4315 1 1
+chrome57.4.9946.5219 2 2
+opera42.9.4824.9552 1 1
+firefox45.68.21 1 1
+safari5.3.7 2 2
+firefox52.44.91 1 1
+chrome54.8.4360.9533 1 1
+firefox52.57.94 1 1
+chrome49.0.2623.75 1 1
+firefox45.63.00 1 1
+firefox52.46.93 1 1
+chrome57.5.9517.4245 1 1
+firefox54.0 1 1
+firefox52.67.10 1 1
+firefox45.65.17 1 1
+opera40.6.1772.6044 1 1
+opera42.0.4384.9012 2 2
+chrome53.5.0382.5010 1 1
+chrome53.5.0415.5143 1 1
+firefox52.66.19 1 1
+firefox60.0 1 1
+firefox52.51.04 1 1
+opera44.5.0294.6566 1 1
+opera44.6.1592.6864 1 1
+safari5.5.0 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+Mozilla/5.0_(compatible;_Dataprovider.com;) 20180504115047
+Mozilla/5.0_(compatible;_ips-agent) 20180513010744
+WordPress/4.9.6;_http://willfrank.xyz 20180531141724
+Mozilla 20180523115052
+WordPress/4.9.5;_http://willfrank.xyz 20180523201004
+Scrapy/1.4.0_(_http://scrapy.org) 20180511102011
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20180512050357
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Scrapy/1.4.0_(_http://scrapy.org) 20180511102011
+WordPress/4.9.5;_http://willfrank.xyz 20180523201004
+WordPress/4.9.6;_http://willfrank.xyz 20180531141724
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 36 53
+From1 0 0
+From2 1 1
+From3 0 0
+From4 627 731
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+yandexru 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+301 29 0
+403 1 1139
+405 3 180
+404 149 432365
+302 1 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 119
+/XAttacker.php 1 -
+/consystem.php 1 -
+/error.php 1 -
+/tmp/sfx.php 1 -
+/wp-content/plugins/SocketIasrgasfontrol.php 1 -
+/wp-includes/css/upload.php 1 -
+/wp-admin/yt.php 1 -
+/feed/ 1 -
+/path4.php 1 -
+/wp-admin/includes/fdsj399jdsf.php 1 -
+/author/admin/ 4 http://willfrank.xyz/
+/wp-admin/network/rnnvhs.php 1 -
+/myadmin 1 -
+/wp-content/uploads/2018/01/William-Frank-Resume.pdf 1 -
+/wp-includes/images/media/rss.php 1 -
+/wp-includes/css/newgolden.php 1 -
+/xmirpc.php 1 -
+/lieats.php 1 -
+/smalls.php 1 -
+/beck/cron.php 1 -
+/axmlprc.php 1 -
+/wp-content/plugins/upgrade-network.php 1 -
+/htaccess.php 1 -
+/mysqladmin 1 -
+/phpadmin 1 -
+/libraries/cms.php 1 -
+/yjh.php 1 -
+/gtde.php 1 -
+/wp-mosx.php 1 -
+/wp-content/plugins/BirdsRios.php 1 -
+/wp-admin/includes/wp-cods.php 1 -
+/wp-content/plugins/all-in-one-seo-pack/admin/display/display.php 1 -
+/view.php 1 -
+/wp-admin/includes/rnnvhs.php 1 -
+/phpinfoer.php 1 -
+/bgeiis.php 1 -
+/phpMyAdmin 1 -
+/wp-includes/SimplePie/Parse/yun.php 1 -
+/wp-includes/css/goh.php 1 -
+/wp-admin/includes/lock46.php 1 -
+/tmpe.php 1 -
+/wp-includes/css/style.css.php 1 -
+/wp-admin/output.php 1 -
+/wp-includes/mvp.php 1 -
+/Camille.php 1 -
+/wp-content/plugins/wp-conns.php 1 -
+/wp-admin/includes/temp.php 1 -
+/wp-pas.php 1 -
+/wp-config_bak.php 1 -
+/wp-content/plugins/fusion-builder/inc/lib/inc/redux/framework/FusionReduxCore/inc/themecheck/checks/index.php 1 -
+/script.php 1 -
+/wp-content/plugins/Materialnlns.php 1 -
+/wp-admin/user/log.php 1 -
+/wp-content/plugins/SocketIontrol.php 1 -
+/configurationbak.php 1 -
+/wp-includes/SimplePie/Parse/Parse.php 1 -
+/phpmyadmin 1 -
+/wp-content/themes/Avada/includes/lib/inc/redux/framework/FusionReduxCore/inc/themecheck/checks/index.php 1 -
+/search.php 2 -
+/wp-content/indes.php 1 -
+/b.php 1 -
+/random.php 1 -
+/wp-conde.php 1 -
+/wp-admin/css/colors/blue/engine_functions.php 1 -
+/meniacle/wp-blog-header.php 1 -
+/wp-content/plugins/fusion-builder/inc/lib/inc/redux/framework/FusionReduxCore/inc/themecheck/index.php 1 -
+/wp-content/themes/error-log.php 1 -
+/wp-caches.php 1 -
+/temp.php 1 -
+/db_z.php 1 -
+/wpcache.php 1 -
+/wp-admin/maint/log.php 1 -
+/sitemap.xml 1 -
+/wp-content/plugins/background-image-cropper/image/ico/search.php 1 -
+/Configss.php 1 -
+/wp-includes/class.wp-depen.php 1 -
+/mysql 1 -
+/wp-sbb.php 2 -
+/wp-includes/js/user.php 1 -
+/modx.php 1 -
+/downloader/ 1 -
+/wp-content/uploads/rnnvhs.php 1 -
+/wp-includes/pomo/7313581d9a.php 1 -
+/wp-content/plugins/wp-cache.php 1 -
+/hook-filters.php 1 -
+/wp-content/plugins/500.php 1 -
+/pma 1 -
+/wp-cokd.php 1 -
+/components/com_foxcontact/_func.php 1 -
+/wp-content/plugins/Malions.php 1 -
+/11.php 3 -
+/comments/feed/ 1 -
+/rsau.php 1 -
+/imdex.php 1 -
+/license.php 2 -
+/wp-info.php 1 -
+/indes.php 1 -
+/webconfig.txt.php 1 -
+/wp-content/plugins/szalog.php 1 -
+/ 14 http://willfrank.xyz/
+/wp-content/themes/sketch/content-post.php 1 -
+/ghfhvvaw.php 1 -
+/ads.txt 1 -
+/wp-pols.php 1 -
+/wp-includes/js/tinymce/plugins/wpview/diff.php 1 -
+/wp-includes/theme-compat/files.php 1 -
+/wp-includes/js/general.php 1 -
+/sizing.php 1 -
+/robots.txt 9 -
+/wp-content/themes/wp-conns.php 1 -
+/backup.bak.php 1 -
+/update.php 1 -
+/dbadmin 1 -
+/wp-admin/ms-menu.php 1 -
+/pols.php 1 -
+/db 1 -
+/prv8.php 1 -
+/wp-index.php 1 -
+/wp-cache.php 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 41
+91.210.144.180 452 452 550084 20180514134747
+62.4.15.117 118 118 194569 20180502000627
+192.245.157.40 40 40 261 20180531141724
+13.56.232.243 10 10 214146 20180530055056
+91.210.144.185 3 3 22936 20180513085945
+193.106.30.99 3 3 1108 20180527165844
+54.67.59.131 3 3 64242 20180507002312
+66.133.109.36 3 3 261 20180512050357
+167.114.117.176 3 3 169824 20180504115048
+188.166.112.95 2 2 0 20180517024028
+104.192.74.25 2 2 42828 20180523115052
+185.244.217.18 2 2 21991 20180530231419
+34.229.56.98 2 25 598452 20180513012203
+185.70.184.81 2 2 22513 20180526092950
+54.201.147.202 1 1 21414 20180510182746
+34.228.10.170 1 13 362698 20180513003056
+46.188.107.45 1 11 108810 20180520041736
+216.69.191.98 1 1 56608 20180502000126
+54.87.23.97 1 13 362698 20180513003104
+18.204.8.1 1 14 373528 20180513031653
+34.229.212.64 1 12 235754 20180513012213
+64.246.165.190 1 1 21414 20180518014126
+193.193.239.123 1 1 0 20180503131050
+194.63.141.238 1 1 56608 20180531141723
+34.201.106.154 1 13 362698 20180513031744
+107.21.57.234 0 2 21660 
+34.227.177.253 0 1 10830 
+34.207.122.15 0 1 10830 
+173.244.48.83 1 1 56608 20180518211821
+106.185.52.36 1 1 21414 20180508180854
+180.169.191.142 1 1 21414 20180505145743
+54.174.182.148 0 2 21660 
+73.63.2.38 0 1 10830 
+74.63.197.26 0 3 11649 
+18.206.64.133 1 13 362698 20180513003117
+52.91.251.241 0 1 10830 
+79.142.96.232 1 1 1097 20180511102011
+69.58.178.57 1 1 56608 20180513010744
+69.162.69.222 0 5 44803 
+185.244.217.73 1 1 21416 20180530132458
+2601:681:5100:512d:29e0:d90a:f94e:13f0 1 1 21414 20180510051010
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20180501 120 120 213027 6
+20180502 3 3 59564 2
+20180503 2 2 0 2
+20180504 5 5 191238 3
+20180505 3 3 21414 3
+20180506 1 1 0 1
+20180507 1 1 21414 1
+20180508 3 3 21414 3
+20180509 2 2 21414 2
+20180510 5 6 75072 5
+20180511 2 2 1097 2
+20180512 6 6 522 2
+20180513 15 117 2835294 12
+20180514 454 454 550084 2
+20180515 1 1 0 1
+20180516 4 4 21414 4
+20180517 4 4 1108 3
+20180518 2 10 134474 2
+20180519 3 3 42862 3
+20180520 2 12 108810 2
+20180521 2 2 21414 2
+20180522 1 1 0 1
+20180523 5 5 64242 4
+20180525 1 1 0 1
+20180526 5 5 43929 4
+20180527 1 1 0 1
+20180528 1 1 21416 1
+20180529 1 1 0 1
+20180530 7 7 43375 7
+20180531 2 2 56608 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+0s-30s 81
+15mn-30mn 1
+2mn-5mn 1
+1h+ 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 13
+/wp-login.php 573 727638 5 8
+/ 44 1124376 39 36
+/wp-cron.php 37 0 36 36
+/wp-includes/ms-load.php 1 0 1 1
+/.well-known/acme-challenge/O7J4gvTe_TyquEd813-KlKIV_GxvwpfdnZeXzDcXnx0 1 87 1 0
+/.well-known/acme-challenge/ui65BPFdX5rXOMBnjBVTcFIGxqBbvNiJ37L6dZePW70 1 87 0 0
+/.well-known/acme-challenge/RryIK-MqIpJMW1q57GNEkrPbepKjlG3y9HOm1XMLSXA 1 87 0 1
+/wp-content/index.php 1 0 1 1
+/.well-known/acme-challenge/mbS2thQvHJeAyrUz89LkQrkOvvL1_RcV7ILNuLADVn8 1 87 0 0
+/.well-known/acme-challenge/2yrSFlE-p9T5wEZZwqRznIHWgbbrfal4Dg_USzNSxpI 1 87 0 1
+/wp-admin/install.php 1 543 1 1
+/.well-known/acme-challenge/inS9CB5SArhoFx2nuOy0qqug8b4n6n6wPu-jOUhPhLs 1 87 1 0
+/xmlrpc.php 1 425 0 0
+END_SIDER

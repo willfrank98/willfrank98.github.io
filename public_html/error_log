@@ -1,0 +1,9 @@
+[06-Feb-2018 22:02:48 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/glfqdcvo/public_html/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[07-Feb-2018 14:26:35 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/glfqdcvo/public_html/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[08-Feb-2018 23:01:18 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/glfqdcvo/public_html/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[09-Feb-2018 15:29:56 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/glfqdcvo/public_html/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[10-Feb-2018 01:08:51 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/glfqdcvo/public_html/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[10-Feb-2018 10:22:43 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/glfqdcvo/public_html/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[11-Feb-2018 16:03:14 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/glfqdcvo/public_html/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[12-Feb-2018 01:36:44 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/glfqdcvo/public_html/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[12-Feb-2018 17:46:47 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/glfqdcvo/public_html/wp-admin/includes/class-wp-upgrader-skin.php on line 93
