@@ -1,10 +1,12 @@
 body {
     font-family: "Century Gothic", 'Lato', sans-serif;
   }
+  
   a {
     text-decoration: none;
   }
-  .et-hero-tabs, .et-slide {
+  
+  .et-hero-tabs {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,8 +18,26 @@ body {
     padding: 0 2em;
   }
 
-  .et-hero-tabs{
-    background-image: url("code.jpg");
+  .et-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background: #eee;
+    text-align: center;
+    padding: 0 2em;
+  }
+
+  #code {
+    position: fixed;
+    z-index: 0;
+  }
+
+  .et-hero-tabs h3, .et-hero-tabs h1 {
+    color: white;
+    z-index: 2;
   }
  
   .et-hero-tabs h1, .et-slide h1 {
@@ -28,7 +48,7 @@ body {
   .et-hero-tabs h3, .et-slide h3 {
     font-size: 1rem;
     letter-spacing: 0.3rem;
-    opacity: 0.6;
+    /* opacity: 0.6; */
   }
   .et-hero-tabs-container {
     display: flex;
