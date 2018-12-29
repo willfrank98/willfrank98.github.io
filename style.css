@@ -37,6 +37,7 @@ body {
 
   .et-hero-tabs h3, .et-hero-tabs h1 {
     color: white;
+    background-color: #000;
     z-index: 2;
   }
  
