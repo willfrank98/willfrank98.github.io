@@ -33,23 +33,35 @@ body {
   #code {
     position: fixed;
     z-index: 0;
+    max-width: 100%;
   }
-
-  .et-hero-tabs h3, .et-hero-tabs h1 {
+ 
+  .et-hero-tabs h1 {
     color: white;
     background-color: #000;
     z-index: 2;
+    font-size: 4rem;
+    margin: 0;
+    letter-spacing: 0.5rem;
   }
- 
-  .et-hero-tabs h1, .et-slide h1 {
+
+  .et-hero-tabs h3 {
+    color: white;
+    background-color: #000;
+    z-index: 2;
+    font-size: 4rem;
+    letter-spacing: 0.3rem;
+  }
+  
+  .et-slide h1 {
     font-size: 2rem;
     margin: 0;
     letter-spacing: .5rem;
   }
-  .et-hero-tabs h3, .et-slide h3 {
+
+  .et-slide h3 {
     font-size: 1rem;
     letter-spacing: 0.3rem;
-    /* opacity: 0.6; */
   }
   .et-hero-tabs-container {
     display: flex;
@@ -89,15 +101,54 @@ body {
     background: #66b1f1;
     transition: left 0.3s ease;
   }
+
   @media (min-width: 800px) {
-    .et-hero-tabs h1, .et-slide h1 {
+    .et-hero-tabs h1 {
+      font-size: 4rem;
+    }
+    .et-hero-tabs h3 {
+      font-size: 2rem;
+    }
+    .et-slide h1 {
       font-size: 3rem;
     }
-    .et-hero-tabs h3, .et-slide h3 {
+    .et-slide h3 {
       font-size: 1rem;
     }
     .et-hero-tab {
       font-size: 1rem;
     }
   }
-  
+
+  .projects-slide {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+    background: #eee;
+    text-align: center;
+    padding: 2em 2em;
+  }
+
+  .projects-slide h1 {
+    font-size: 3rem;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-row-gap: 5px;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+  }
+
+  .grid-item3 {
+    grid-area: 2 / 1 / span 1 / span 1;
+  }
+
+  .grid-item4 {
+    grid-area: 3 / 1 / span 1 / span 1;
+  }
+
+  .grid-item5 {
+    grid-area: 4 / 1 / span 1 / span 1;
+  }
