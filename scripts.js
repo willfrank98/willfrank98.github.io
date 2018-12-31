@@ -73,3 +73,33 @@ class StickyNavigation {
 }
 
 new StickyNavigation();
+
+//
+// JS for project buttons
+//
+window.onload = function() {
+    let modal = document.getElementById('myModal');
+    let link3 = document.querySelector(".item3")
+    let closeBtn = document.getElementsByClassName("close")[0];
+    
+    //function which surpresses the link and opens the modal
+    let clickFunc = function (e) {
+        e.preventDefault();
+        modal.style.display = "block";
+    }
+    
+    //add the clickFunc to the link
+    link3.addEventListener("click", clickFunc);
+    
+    //when the user clicks on <span> (x), close the modal
+    closeBtn.onclick = function () {
+        modal.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+}
