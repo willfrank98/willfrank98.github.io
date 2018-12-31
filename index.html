@@ -2,31 +2,89 @@
 <html>
 
 <!--HEAD-->
+
 <head>
   <link href="style.css" rel="stylesheet" type="text/css">
   <title>William Frank</title>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
 
 <!--BODY-->
+
 <body>
-  <h1>William Frank</h1>
-  <p>
-    <div class="header-links">
-      <a href="#projects">Projects</a><a href="#resume">Resume</a><a href="#links/info">Links/Info</a>
+  <!-- Hero -->
+  <section class="et-hero-tabs">
+    <img id="code" src="code.jpg">
+    <h1>William Frank</h1>
+    <h3>Computer Scientist</h3>
+    <div class="et-hero-tabs-container">
+      <a class="et-hero-tab" href="#tab-es6">Projects</a>
+      <a class="et-hero-tab" href="#tab-flexbox">Resume</a>
+      <a class="et-hero-tab" href="#tab-react">About Me</a>
+      <a class="et-hero-tab" href="#tab-angular">Links</a>
+      <span class="et-hero-tab-slider"></span>
     </div>
-  </p>
-  <hr />
+  </section>
 
-  <h3 id="projects">Projects</h3>
-  <hr />
+  <!-- Main -->
+  <main class="et-main">
+    <section class="projects-slide" id="tab-es6">
+      <h1>Projects</h1>
+      <div class="grid-container">
+        <div class="grid-header item1">
+          <h3>Personal</h3>
+        </div>
+        <div class="grid-header item2">
+          <h3>School</h3>
+        </div>
+        <a href="" class="grid-item item3">
+            <img src="/icons/football.svg" style="width:50px;height:50px">
+            TeamBuilder
+        </a>
+        <a href="" class="grid-item item4">
+            <img src="/icons/paint-palette.svg" style="width:50px;height:50px">
+            AI Art
+        </a>
+        <a href="" class="grid-item item5">
+            <img src="/icons/calendar.svg" style="width:50px;height:50px">
+            Day Planner
+        </a>
+        <a href="" class="grid-item item6">
+            Logic Quest
+        </a>
+        <a href="" class="grid-item item7">
+            QtSE
+        </a>
+        <a href="" class="grid-item item8">
+            Simon
+        </a>
 
-  <h3 id="resume">Resume</h3>
-  <p>View my resume <a href="Resume.pdf" target="_blank">here</a>.</p>
-  <hr />
+      </div>
+    </section>
 
-  <h3 id="links/info">Links/Info</h3>
-  <a href="https://github.com/willfrank98" target="blank">Github</a>
-  <a href="https://www.linkedin.com/in/williamdavidfrank/" target="blank">LinkedIn</a>
+    <section class="et-slide" id="tab-flexbox">
+      <h1>Resume</h1>
+      <h3><a href="resume.pdf" target="_blank">Download</a></h3>
+    </section>
+
+    <section class="et-slide" id="tab-react">
+      <h1>About Me</h1>
+      <h3>something about me</h3>
+    </section>
+
+    <section class="et-slide" id="tab-angular">
+      <h1>Links</h1>
+      <h3><a href="mailto:willfrank98@gmail.com" target="_top">Email</a></h3>
+      <h3><a href="https://github.com/willfrank98" target="_blank">Github</a></h3>
+      <h3><a href="https://www.linkedin.com/in/williamdavidfrank/" target="_blank">LinkedIn</a></h3>
+      <h3><a href="credits.html">Icon Credits</a></h3>
+    </section>
+
+  </main>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="scripts.js"></script>
 </body>
 
 </html>
