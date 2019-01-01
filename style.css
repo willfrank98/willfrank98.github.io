@@ -238,7 +238,13 @@ a {
 }
 
 /* Modal Body */
-.modal-body {padding: 2px 16px;}
+.modal-body {
+  padding: 15px 16px;
+}
+
+.modal-body a {
+  font-weight: bold;
+}
 
 /* Modal Footer */
 .modal-footer {
