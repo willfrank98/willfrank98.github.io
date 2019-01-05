@@ -229,6 +229,8 @@ a {
 /* Modal Body */
 .modal-body {
   padding: 15px 16px;
+  height: 20vh;
+  overflow: auto;
 }
 
 .modal-body a {
@@ -243,7 +245,6 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-
 }
 
 /* Modal Content */
