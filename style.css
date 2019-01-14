@@ -197,20 +197,30 @@ a {
 /* Projects Modals */
 
 /* The Modal (background) */
+
 .modal {
-  display: none;  /* Hidden by default */
-  position: fixed;  /* Stay in place */
-  z-index: 11;  /* Sit on top */
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 11;
+  /* Sit on top */
   left: 0;
   top: 0;
-  width: 100%;  /* Full width */
-  height: 100%;  /* Full height */
-  overflow: auto;  /* Enable scroll if needed */
-  background-color: rgb(0, 0, 0);  /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4);  /* Black w/ opacity */
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
 }
 
 /* The Close Button */
+
 .close {
   color: #aaa;
   float: right;
@@ -225,6 +235,7 @@ a {
 }
 
 /* Modal Header */
+
 .modal-header {
   padding: 2px 16px;
   background-color: #eee;
@@ -232,6 +243,7 @@ a {
 }
 
 /* Modal Body */
+
 .modal-body {
   padding: 15px 16px;
   height: 20vh;
@@ -243,6 +255,7 @@ a {
 }
 
 /* Modal Footer */
+
 .modal-footer {
   padding: 2px 16px;
   background-color: #eee;
@@ -253,6 +266,7 @@ a {
 }
 
 /* Modal Content */
+
 .modal-content {
   position: relative;
   background-color: white;
@@ -260,12 +274,13 @@ a {
   padding: 0;
   border: 1px solid #888;
   width: 50%;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   animation-name: fadein;
   animation-duration: 0.3s
 }
 
 /* Add Animation */
+
 @keyframes fadein {
   from {
     opacity: 0;
@@ -284,70 +299,57 @@ a {
 }
 
 /* ~Responsive Web Design~ */
+
 /* Styles for mobile */
+
 @media (max-width: 800px) {
   #name {
     font-size: 6rem;
-    top: 50px;
-    bottom: initial;
-    left: initial;
+    position: relative;
   }
-
   #occupation {
     font-size: 4rem;
     position: relative;
-    /* top: 5px; */
   }
-
-  .projects-slide h1 {
-    font-size: 4rem;
-  }
-
   .et-slide h1 {
     font-size: 4rem;
   }
-
   .et-slide h3 {
     font-size: 2.5rem;
   }
-
+  .projects-slide h1 {
+    font-size: 4rem;
+    margin: 0;
+  }
   .projects-slide h3 {
     font-size: 2.5rem;
+    margin: .25em;
   }
-
   .grid-icon {
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
   }
-
   .grid-text {
     font-size: 1.7rem;
   }
-
   .modal-content {
     width: 80%;
   }
-
   .modal-header h2 {
-    font-size: 3rem;
-  }
-
-  .close {
-    font-size: 4rem;
-  }
-
-  .modal-body {
-    height: 80%;
-  }
-
-  .modal-body a {
-    font-size: 3rem;
-  }
-
-  .modal-body p {
     font-size: 2rem;
   }
-
+  .close {
+    font-size: 2rem;
+  }
+  .modal-body {
+    height: 50vh;
+  }
+  .modal-body a {
+    font-size: 2rem;
+  }
+  .modal-body p {
+    font-size: 1.25rem;
+  }
   #about-me {
     width: 80%;
     font-size: 1.7rem;
