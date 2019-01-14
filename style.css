@@ -304,18 +304,20 @@ a {
 
 @media (max-width: 800px) {
   #name {
-    font-size: 6rem;
-    position: relative;
+    position: static;
   }
   #occupation {
-    font-size: 4rem;
-    position: relative;
+    position: static;
+  }
+  .et-hero-tab {
+    padding-top: 10px;
+    /* padding-bottom: 10px; */
   }
   .et-slide h1 {
     font-size: 3rem;
   }
   .et-slide h3 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .projects-slide h1 {
     font-size: 4rem;
