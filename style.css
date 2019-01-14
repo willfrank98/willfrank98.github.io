@@ -125,7 +125,7 @@ a {
 }
 
 .projects-slide h1 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 /* Projects Grid */
@@ -279,6 +279,36 @@ a {
 }
 
 /* ~Responsive Web Design~ */
+/* Styles for mobile */
 @media (max-width: 800px) {
- 
+  #name {
+    font-size: 6rem;
+    top: 50px;
+    bottom: initial;
+    left: initial;
+  }
+
+  #occupation {
+    font-size: 4rem;
+    position: relative;
+    /* top: 5px; */
+  }
+
+  .projects-slide h1 {
+    font-size: 4rem;
+  }
+
+  .et-slide h1 {
+    font-size: 4rem;
+  }
+
+  .et-slide h3 {
+    font-size: 2.5rem;
+  }
+
+  #about-me {
+    width: 80%;
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+  }
 }
