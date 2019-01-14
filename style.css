@@ -312,7 +312,7 @@ a {
     position: relative;
   }
   .et-slide h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .et-slide h3 {
     font-size: 2.5rem;
@@ -351,8 +351,8 @@ a {
     font-size: 1.25rem;
   }
   #about-me {
-    width: 80%;
-    font-size: 1.7rem;
-    line-height: 2.2rem;
+    width: 95%;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
   }
 }
