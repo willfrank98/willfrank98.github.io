@@ -309,10 +309,10 @@ a {
   #occupation {
     position: static;
   }
-  .et-hero-tab {
+  /* .et-hero-tab {
     padding-top: 10px;
-    /* padding-bottom: 10px; */
-  }
+    padding-bottom: 10px;
+  } */
   .et-slide h1 {
     font-size: 3rem;
   }
