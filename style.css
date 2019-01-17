@@ -133,7 +133,7 @@ a {
 .grid-container {
   display: grid;
   grid-row-gap: 5px;
-  grid-template-columns: 130px 130px;
+  grid-template-columns: 140px 140px;
   justify-content: space-evenly;
 }
 
@@ -327,8 +327,14 @@ a {
     font-size: 2.5rem;
     margin: .25em;
   }
+  #tab-es6 {
+    padding: 10px;
+  }
   .grid-container {
     grid-template-columns: 48% 48%;
+  }
+  .grid-header h3 {
+    margin: 0px;
   }
   .grid-icon {
     height: 50px;
