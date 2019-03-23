@@ -83,7 +83,7 @@ window.onload = function() {
     let teamBuilderLink = document.querySelector(".item3");
     let teamBuilderClose = document.querySelector("#TeamBuilder > div > div.modal-header > span");
     
-    //function which surpresses the link and opens the modal
+    //function which suppresses the link and opens the modal
     let clickFuncTB = function (event) {
         event.preventDefault();
         teamBuilderModal.style.display = "block";
@@ -175,6 +175,21 @@ window.onload = function() {
     
     simonClose.onclick = function () {
         simonModal.style.display = "none";
+    }
+
+    let marketModal = document.getElementById("MarketPredictions");
+    let marketLink = document.querySelector(".item9");
+    let marketClose = document.querySelector("#MarketPredictions > div > div.modal-header > span");
+    
+    let clickFuncMP = function (event) {
+        event.preventDefault();
+        marketModal.style.display = "block";
+    };
+    
+    marketLink.addEventListener("click", clickFuncMP);
+    
+    marketClose.onclick = function () {
+        marketModal.style.display = "none";
     }
 
     // When the user clicks anywhere outside of the modal, close it
