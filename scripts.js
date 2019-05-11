@@ -199,13 +199,15 @@ window.onload = function() {
             event.target == dayPlannerModal ||
             event.target == logicQuestModal ||
             event.target == qtSEModal ||
-            event.target == simonModal) {
+            event.target == simonModal ||
+            event.target == marketModal) {
             teamBuilderModal.style.display = "none";
             aiArtModal.style.display = "none";
             dayPlannerModal.style.display = "none";
             logicQuestModal.style.display = "none";
             qtSEModal.style.display = "none";
             simonModal.style.display = "none";
+            marketModal.style.display = "none";
         }
     }
 }
