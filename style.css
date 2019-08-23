@@ -58,6 +58,9 @@ a {
   position: absolute;
   left: 8px;
   bottom: 150px;
+  display: block;
+  float: left;
+  margin-top: 
 }
 
 .et-slide h1 {
@@ -318,9 +321,11 @@ a {
 @media (max-width: 800px) {
   #name {
     position: static;
+    margin-bottom: 10px;
   }
   #occupation {
     position: static;
+    margin-top: 0px;
   }
   .et-slide h1 {
     font-size: 3rem;
