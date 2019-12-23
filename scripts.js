@@ -89,63 +89,63 @@ window.onload = function() {
     })
 
     //AI Art
-    $('#teambuilder-link').click((event) => {
+    $('#aiart-link').click((event) => {
         event.preventDefault();
-        $('#TeamBuilder').show();
+        $('#AIArt').show();
     })
 
-    $('#TeamBuilder .close').click((event) => {
-        $('#TeamBuilder').hide();
+    $('#AIArt .close').click((event) => {
+        $('#AIArt').hide();
     })
     
     //Day Planner
-    $('#teambuilder-link').click((event) => {
+    $('#dayplanner-link').click((event) => {
         event.preventDefault();
-        $('#TeamBuilder').show();
+        $('#DayPlanner').show();
     })
 
-    $('#TeamBuilder .close').click((event) => {
-        $('#TeamBuilder').hide();
+    $('#DayPlanner .close').click((event) => {
+        $('#DayPlanner').hide();
     })
 
     //Logic Quest
-    $('#teambuilder-link').click((event) => {
+    $('#logic-link').click((event) => {
         event.preventDefault();
-        $('#TeamBuilder').show();
+        $('#LogicQuest').show();
     })
 
-    $('#TeamBuilder .close').click((event) => {
-        $('#TeamBuilder').hide();
+    $('#LogicQuest .close').click((event) => {
+        $('#LogicQuest').hide();
     })
 
     //QtSE
-    $('#teambuilder-link').click((event) => {
+    $('#qtse-link').click((event) => {
         event.preventDefault();
-        $('#TeamBuilder').show();
+        $('#QtSE').show();
     })
 
-    $('#TeamBuilder .close').click((event) => {
-        $('#TeamBuilder').hide();
+    $('#QtSE .close').click((event) => {
+        $('#QtSE').hide();
     })
 
     //Simon
-    $('#teambuilder-link').click((event) => {
+    $('#simon-link').click((event) => {
         event.preventDefault();
-        $('#TeamBuilder').show();
+        $('#Simon').show();
     })
 
-    $('#TeamBuilder .close').click((event) => {
-        $('#TeamBuilder').hide();
+    $('#Simon .close').click((event) => {
+        $('#Simon').hide();
     })
 
     //Stock market predictions
-    $('#teambuilder-link').click((event) => {
+    $('#smp-link').click((event) => {
         event.preventDefault();
-        $('#TeamBuilder').show();
+        $('#MarketPredictions').show();
     })
 
-    $('#TeamBuilder .close').click((event) => {
-        $('#TeamBuilder').hide();
+    $('#MarketPredictions .close').click((event) => {
+        $('#MarketPredictions').hide();
     })
 
     // When the user clicks anywhere outside of the modal, close it
