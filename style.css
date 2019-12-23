@@ -53,10 +53,10 @@ a {
   color: #000;
   background-color: #eee;
   z-index: 2;
-  font-size: 2rem;
+  font-size: 2.5rem;
   position: absolute;
   left: 8px;
-  bottom: 150px;
+  bottom: 135px;
   display: block;
   float: left;
 }
