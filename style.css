@@ -54,13 +54,16 @@ a {
   background-color: #eee;
   z-index: 2;
   font-size: 2rem;
-  letter-spacing: 0.3rem;
   position: absolute;
   left: 8px;
   bottom: 150px;
   display: block;
   float: left;
-  margin-top: 
+}
+
+#occupation > a {
+  color: black;
+  margin: 5px;
 }
 
 .et-slide h1 {
@@ -133,19 +136,13 @@ a {
 
 /* Projects Grid */
 
-.grid-container {
-  display: grid;
-  grid-row-gap: 5px;
-  grid-template-columns: 140px 2px 140px;
+#projects {
+  display: flex;
   justify-content: space-evenly;
 }
 
-.grid-container a:link {
-  color: black;
-}
-
-.grid-container a:visited {
-  color: black;
+.col {
+  width: 140px;
 }
 
 .grid-item {
@@ -154,6 +151,7 @@ a {
   border-radius: 20px;
   border: 3px solid black;
   padding: 10px 15px 10px 15px;
+  margin: 5px;
   width: auto;
   height: auto;
 }
@@ -163,9 +161,12 @@ a {
   margin: auto;
 }
 
+.grid-item span {
+  color: black;
+}
+
 .grid-text {
   font-weight: bold;
-  /* padding: 2px; */
 }
 
 .grid-icon {
@@ -173,41 +174,9 @@ a {
   width: 50px;
 }
 
-.item2 {
-  grid-area: 1 / 3 / span 1 / span 1;
-}
-
-.item3 {
-  grid-area: 3 / 1 / span 1 / span 1;
-}
-
-.item4 {
-  grid-area: 2 / 1 / span 1 / span 1;
-}
-
-.item5 {
-  grid-area: 4 / 1 / span 1 / span 1;
-}
-
-.item6 {
-  grid-area: 3 / 3 / span 1 / span 1;
-}
-
-.item7 {
-  grid-area: 4 / 3 / span 1 / span 1;
-}
-
-.item8 {
-  grid-area: 5 / 3 / span 1 / span 1;
-}
-
-.item9 {
-  grid-area: 2 / 3 / span 1 / span 1;
-}
-
 .grid-line {
   background-color: #000;
-  grid-area: 1 / 2 / span 5 / span 1;
+  width: 2px;
 }
 
 /* Projects Modals */

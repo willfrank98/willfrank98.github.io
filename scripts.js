@@ -79,135 +79,91 @@ new StickyNavigation();
 //
 window.onload = function() {
     //TeamBuilder
-    let teamBuilderModal = document.getElementById('TeamBuilder');
-    let teamBuilderLink = document.querySelector(".item3");
-    let teamBuilderClose = document.querySelector("#TeamBuilder > div > div.modal-header > span");
-    
-    //function which suppresses the link and opens the modal
-    let clickFuncTB = function (event) {
+    $('#teambuilder-link').click((event) => {
         event.preventDefault();
-        teamBuilderModal.style.display = "block";
-    };
-    
-    //add the clickFunc to the link
-    teamBuilderLink.addEventListener("click", clickFuncTB);
-    
-    //when the user clicks on <span> (x), close the modal
-    teamBuilderClose.onclick = function () {
-        teamBuilderModal.style.display = "none";
-    }
+        $('#TeamBuilder').show();
+    })
+
+    $('#TeamBuilder .close').click((event) => {
+        $('#TeamBuilder').hide();
+    })
 
     //AI Art
-    let aiArtModal = document.getElementById("AIArt");
-    let aiArtLink = document.querySelector(".item4");
-    let aiArtClose = document.querySelector("#AIArt > div > div.modal-header > span");
-    
-    let clickFuncAA = function (event) {
+    $('#teambuilder-link').click((event) => {
         event.preventDefault();
-        aiArtModal.style.display = "block";
-    };
-    
-    aiArtLink.addEventListener("click", clickFuncAA);
-    
-    aiArtClose.onclick = function () {
-        aiArtModal.style.display = "none";
-    }
+        $('#TeamBuilder').show();
+    })
+
+    $('#TeamBuilder .close').click((event) => {
+        $('#TeamBuilder').hide();
+    })
     
     //Day Planner
-    let dayPlannerModal = document.getElementById("DayPlanner");
-    let dayPlannerLink = document.querySelector(".item5");
-    let dayPlannerClose = document.querySelector("#DayPlanner > div > div.modal-header > span");
-    
-    let clickFuncDP = function (event) {
+    $('#teambuilder-link').click((event) => {
         event.preventDefault();
-        dayPlannerModal.style.display = "block";
-    };
-    
-    dayPlannerLink.addEventListener("click", clickFuncDP);
-    
-    dayPlannerClose.onclick = function () {
-        dayPlannerModal.style.display = "none";
-    }
+        $('#TeamBuilder').show();
+    })
+
+    $('#TeamBuilder .close').click((event) => {
+        $('#TeamBuilder').hide();
+    })
 
     //Logic Quest
-    let logicQuestModal = document.getElementById("LogicQuest");
-    let logicQuestLink = document.querySelector(".item6");
-    let logicQuestClose = document.querySelector("#LogicQuest > div > div.modal-header > span");
-    
-    let clickFuncLQ = function (event) {
+    $('#teambuilder-link').click((event) => {
         event.preventDefault();
-        logicQuestModal.style.display = "block";
-    };
-    
-    logicQuestLink.addEventListener("click", clickFuncLQ);
-    
-    logicQuestClose.onclick = function () {
-        logicQuestModal.style.display = "none";
-    }
+        $('#TeamBuilder').show();
+    })
+
+    $('#TeamBuilder .close').click((event) => {
+        $('#TeamBuilder').hide();
+    })
 
     //QtSE
-    let qtSEModal = document.getElementById("QtSE");
-    let qtSELink = document.querySelector(".item7");
-    let qtSEClose = document.querySelector("#QtSE > div > div.modal-header > span");
-    
-    let clickFuncQS = function (event) {
+    $('#teambuilder-link').click((event) => {
         event.preventDefault();
-        qtSEModal.style.display = "block";
-    };
-    
-    qtSELink.addEventListener("click", clickFuncQS);
-    
-    qtSEClose.onclick = function () {
-        qtSEModal.style.display = "none";
-    }
+        $('#TeamBuilder').show();
+    })
+
+    $('#TeamBuilder .close').click((event) => {
+        $('#TeamBuilder').hide();
+    })
 
     //Simon
-    let simonModal = document.getElementById("Simon");
-    let simonLink = document.querySelector(".item8");
-    let simonClose = document.querySelector("#Simon > div > div.modal-header > span");
-    
-    let clickFuncSi = function (event) {
+    $('#teambuilder-link').click((event) => {
         event.preventDefault();
-        simonModal.style.display = "block";
-    };
-    
-    simonLink.addEventListener("click", clickFuncSi);
-    
-    simonClose.onclick = function () {
-        simonModal.style.display = "none";
-    }
+        $('#TeamBuilder').show();
+    })
 
-    let marketModal = document.getElementById("MarketPredictions");
-    let marketLink = document.querySelector(".item9");
-    let marketClose = document.querySelector("#MarketPredictions > div > div.modal-header > span");
-    
-    let clickFuncMP = function (event) {
+    $('#TeamBuilder .close').click((event) => {
+        $('#TeamBuilder').hide();
+    })
+
+    //Stock market predictions
+    $('#teambuilder-link').click((event) => {
         event.preventDefault();
-        marketModal.style.display = "block";
-    };
-    
-    marketLink.addEventListener("click", clickFuncMP);
-    
-    marketClose.onclick = function () {
-        marketModal.style.display = "none";
-    }
+        $('#TeamBuilder').show();
+    })
+
+    $('#TeamBuilder .close').click((event) => {
+        $('#TeamBuilder').hide();
+    })
 
     // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function (event) {
-        if (event.target == teamBuilderModal ||
-            event.target == aiArtModal ||
-            event.target == dayPlannerModal ||
-            event.target == logicQuestModal ||
-            event.target == qtSEModal ||
-            event.target == simonModal ||
-            event.target == marketModal) {
-            teamBuilderModal.style.display = "none";
-            aiArtModal.style.display = "none";
-            dayPlannerModal.style.display = "none";
-            logicQuestModal.style.display = "none";
-            qtSEModal.style.display = "none";
-            simonModal.style.display = "none";
-            marketModal.style.display = "none";
-        }
-    }
+    // window.onclick = function (event) {
+    //     if (event.target == teamBuilderModal ||
+    //         event.target == aiArtModal ||
+    //         event.target == dayPlannerModal ||
+    //         event.target == logicQuestModal ||
+    //         event.target == qtSEModal ||
+    //         event.target == simonModal ||
+    //         event.target == marketModal) {
+    //         teamBuilderModal.style.display = "none";
+    //         aiArtModal.style.display = "none";
+    //         dayPlannerModal.style.display = "none";
+    //         logicQuestModal.style.display = "none";
+    //         qtSEModal.style.display = "none";
+    //         simonModal.style.display = "none";
+    //         marketModal.style.display = "none";
+    //     }
+    // }
 }

@@ -9,6 +9,8 @@
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://kit.fontawesome.com/ae9b5697a3.js" crossorigin="anonymous"></script>
 </head>
 
 <!--BODY-->
@@ -18,8 +20,10 @@
   <section class="et-hero-tabs">
     <img id="code" src="code.jpg">
     <h1 id="name">William Frank</h1>
-    <!-- <h3 >Computer Scientist</h3> -->
-	<h3 id="occupation"><a href="https://github.com/willfrank98" target="_blank">Github &nbsp;</a> <a href="https://www.linkedin.com/in/williamdavidfrank/" target="_blank"> LinkedIn</a></h3>
+    <h3 id="occupation">
+      <a href="https://github.com/willfrank98" target="_blank"><i class="fab fa-github-square"></i></a>
+      <a href="https://www.linkedin.com/in/williamdavidfrank/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </h3>
     <div class="et-hero-tabs-container">
       <a class="et-hero-tab" href="#tab-es6">Projects</a>
       <a class="et-hero-tab" href="#tab-flexbox">Resume</a>
@@ -33,43 +37,47 @@
   <main class="et-main">
     <section class="projects-slide" id="tab-es6">
       <h1>Projects</h1>
-      <div class="grid-container">
-        <div class="grid-header item1">
-          <h3>Personal</h3>
+      <div id="projects">
+        <div class="col" id="personal-col">
+          <div class="grid-header">
+            <h3>Personal</h3>
+          </div>
+           <a href="" class="grid-item" id="aiart-link">
+            <img src="/icons/sketch.svg" class="grid-icon">
+            <span class="grid-text">AI Art</span>
+          </a>
+          <a href="" class="grid-item" id="teambuilder-link">
+            <img src="/icons/football.svg" class="grid-icon">
+            <span class="grid-text">Team Builder</span>
+          </a>
+          <a href="" class="grid-item" id="dayplanner-link">
+            <img src="/icons/calendar.svg" class="grid-icon">
+            <span class="grid-text">Day Planner</span>
+          </a>
         </div>
-        <div class="grid-header item2">
-          <h3>School</h3>
-        </div>
-        <a href="" class="grid-item item3">
-          <img src="/icons/football.svg" class="grid-icon">
-          <span class="grid-text">Team Builder</span>
-        </a>
-        <a href="" class="grid-item item4">
-          <img src="/icons/sketch.svg" class="grid-icon">
-          <span class="grid-text">AI Art</span>
-        </a>
-        <a href="" class="grid-item item5">
-          <img src="/icons/calendar.svg" class="grid-icon">
-          <span class="grid-text">Day Planner</span>
-        </a>
-        <a href="" class="grid-item item6">
-          <img src="/icons/integrated-circuit.svg" class="grid-icon">
-          <span class="grid-text">Logic Quest</span>
-        </a>
-        <a href="" class="grid-item item7">
-          <img src="/icons/paint-palette.svg" class="grid-icon">
-          <span class="grid-text">QtSE</span>
-        </a>
-        <a href="" class="grid-item item8">
-          <img src="/icons/menu.svg" class="grid-icon">
-          <span class="grid-text">Simon</span>
-        </a>
-        <a href="" class="grid-item item9">
-          <img src="/icons/fluctuation.svg" class="grid-icon">
-          <span class="grid-text">Market Predictions</span>
-        </a>
         <div class="grid-line">
-          
+
+        </div>
+        <div class="col" id="school-col">
+          <div class="grid-header">
+            <h3>School</h3>
+          </div>
+          <a href="" class="grid-item" id="smp-link">
+              <img src="/icons/fluctuation.svg" class="grid-icon">
+              <span class="grid-text">Market Predictions</span>
+            </a>
+          <a href="" class="grid-item" id="logic-link">
+            <img src="/icons/integrated-circuit.svg" class="grid-icon">
+            <span class="grid-text">Logic Quest</span>
+          </a>
+          <a href="" class="grid-item" id="qtse-link">
+            <img src="/icons/paint-palette.svg" class="grid-icon">
+            <span class="grid-text">QtSE</span>
+          </a>
+          <a href="" class="grid-item" id="simon-link">
+            <img src="/icons/menu.svg" class="grid-icon">
+            <span class="grid-text">Simon</span>
+          </a>
         </div>
 
       </div>
@@ -82,11 +90,16 @@
 
     <section class="et-slide" id="tab-react">
       <h1>About Me</h1>
-      <p id="about-me">Originally born and raised in a suburb of Philadelphia, I now live in Salt Lake City, Utah, and study computer
-        science at the University of Utah. I have always loved being around computers, and by the time I was entering high
-        school I was fairly certain I wanted to be a computer programmer. I was able to take advantage of the programming classes
-        my high school offered and my love grew, even building my own computer in 10th grade. Now in my third year of college,
-        I am looking for an internship to gain further experience in the field of software engineering. I love learning new
+      <p id="about-me">Originally born and raised in a suburb of Philadelphia, I now live in Salt Lake City, Utah, and
+        study computer
+        science at the University of Utah. I have always loved being around computers, and by the time I was entering
+        high
+        school I was fairly certain I wanted to be a computer programmer. I was able to take advantage of the
+        programming classes
+        my high school offered and my love grew, even building my own computer in 10th grade. Now in my third year of
+        college,
+        I am looking for an internship to gain further experience in the field of software engineering. I love learning
+        new
         things and working on complex problems, and am eager to build my skills in the real world.</p>
     </section>
 
@@ -139,7 +152,8 @@
       <a href="https://github.com/willfrank98/AI_Art" target="_blank">Github</a>
       <p>A program written in C# that takes any image as input, and will attempt to recreate it with randomized simple
         shapes.</p>
-      <p>The way the simple shapes are generated is reminiscent of a genetic machine learning algorithm, thus the name.</p>
+      <p>The way the simple shapes are generated is reminiscent of a genetic machine learning algorithm, thus the name.
+      </p>
     </div>
     <div class="modal-footer">
       <h3></h3>
@@ -185,7 +199,8 @@
       <p>The game uses an intuitive drag and drop interface within each level, with an automatically updating display
         of the output for the given inputs. Additionally, our game was written in a way that each level was encoded in
         plaintext in such a way that anyone could modify the levels to whatever they desire.</p>
-      <p>This project was invaluable for teaching me about working in a larger group, as well as planning for and organizing
+      <p>This project was invaluable for teaching me about working in a larger group, as well as planning for and
+        organizing
         what occasionally felt like too many people.</p>
       <p>See the Github for screenshots!</p>
     </div>
@@ -206,7 +221,8 @@
     <div class="modal-body">
       <a href="https://github.com/willfrank98/QtSE" target="_blank">Github</a>
       <p>QtSE is a sprite editor written in C++/Qt. It's many features included multiple frames, live animation
-        preview, GIF exporting, sprite sheet exporting, PNG exporting, textfile-based saving and loading, feathering brush,
+        preview, GIF exporting, sprite sheet exporting, PNG exporting, textfile-based saving and loading, feathering
+        brush,
         mirror paint brush, bucket fill, color replace, ellipse tool, square tool, line tool, and selection moving.</p>
       <p>QtSE was created in a group of 6 students. I was primarily responsible for implementing textfile-based saving
         and loading, as well as vertically mirrored painting, and the color replace brush.</p>
@@ -228,7 +244,8 @@
     </div>
     <div class="modal-body">
       <a href="https://github.com/willfrank98/Simon-Game" target="_blank">Github</a>
-      <p>A simple Simon Says game in which the player must copy the AI's random moves as they increase in speed. Written in
+      <p>A simple Simon Says game in which the player must copy the AI's random moves as they increase in speed. Written
+        in
         C++/Qt, this was my introduction to Qt as well as using Qt Creator.</p>
       <p>See the Github for screenshots!</p>
     </div>
@@ -248,8 +265,10 @@
     </div>
     <div class="modal-body">
       <a href="https://github.com/willfrank98/Machine_Learning_Project" target="_blank">Github</a>
-      <p>A class project for which the only requirement was that a major component involve machine learning. I decided to
-        attempt to predict stock market movements using primarily news articles. The project is coded in Python using the
+      <p>A class project for which the only requirement was that a major component involve machine learning. I decided
+        to
+        attempt to predict stock market movements using primarily news articles. The project is coded in Python using
+        the
         Anaconda distribution. The final pipeline involves converting New York Times headlines for one day into term
         frequency-inverse document frequency representation and labeling them with the Dow Jones Industrial Average's
         performance over the next 10 days. Overall results were somewhat disappointing, though not discouraging. A full
